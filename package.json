@@ -7,8 +7,7 @@
     "example": "example"
   },
   "files": [
-    "dist/",
-    "src/"
+    "dist/"
   ],
   "scripts": {
     "start": "npm run build:plugins && npm run build:htmlinit && webpack serve --config ./build-config/webpack.dev.main.js",
